@@ -308,6 +308,8 @@ MonoBehaviour:
   derlimit: 3
   izqlimit: -3
   derecha: 0
+  prefab1: {fileID: 1258633784485747596, guid: a045aeccfb2473f46831fc44cd02fe2d, type: 3}
+  prefab2: {fileID: 5655064490828417011, guid: ffd0c68e616cd9c408597e986e6603a9, type: 3}
 --- !u!65 &516504109
 BoxCollider:
   m_ObjectHideFlags: 0

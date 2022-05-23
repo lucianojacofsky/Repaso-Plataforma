@@ -9,6 +9,9 @@ public class PlatformScript : MonoBehaviour
     public float derlimit;
     public float izqlimit;
     public bool derecha;
+
+    public GameObject prefab1;
+    public GameObject prefab2;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,10 +34,12 @@ public class PlatformScript : MonoBehaviour
             if (transform.position.x > derlimit)
         {
                derecha = false;
+                Instantiate(prefab1);
         }
             else if (transform.position.x < izqlimit)
         {
             derecha = true;
+            Instantiate(prefab2);
         }
     }
 }
